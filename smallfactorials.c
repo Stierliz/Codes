@@ -11,9 +11,8 @@ int main(){
 
 		while(flag){
 			rem=flag%10;
-			a[m]=rem;
+			a[m++]=rem;
 			flag/=10;
-			m++;
 		}
 
 		int temp,index=0,x=0;
