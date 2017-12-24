@@ -8,9 +8,9 @@ int main(){
 	 
 	 //sieve of eratosthen
 	for(i=2;i*i<=size;i++){//i*i<=size -1.622s 
-		if(a[i]==0); 		// tmp=sqrt(size),i<=tmp -1.638s
-		for(j=i*i;j<=size;j+=i) 
-			a[j]=1; 
+		if(a[i]==0)		// tmp=sqrt(size),i<=tmp -1.638s
+			for(j=i*i;j<=size;j+=i) 
+				a[j]=1; 
 	}
 
 	scanf("%d",&k); 
